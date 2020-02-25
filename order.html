@@ -11,8 +11,9 @@
   <title>Order</title>
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Custom styles for this template -->
   <link href="product.css" rel="stylesheet">
@@ -49,9 +50,9 @@
           <label>Email Address</label>
           <input type="text" name="email_address" placeholder="michael@humanemail.com" />
         </div>
-        <div>
-          <button type="submit" id="submit-form">Submit</button>
-        </div>
+        <button class="btn btn-primary" type="button" id="submit-form">
+          Submit
+        </button>
       </form>
     </div>
   </div>
@@ -61,11 +62,31 @@
 
     $('#submit-form').on('click', function (e) {
       e.preventDefault();
+      // $('#submit-loading').show();
+      $(this).prop("disabled", true);
+      $(this).html(
+        `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Submitting...`
+      );
       var jqxhr = $.ajax({
         url: url,
         method: "GET",
         dataType: "json",
-        data: $form.serializeObject()
+        data: $form.serializeObject(),
+        success: (function (e) {
+          console.log("Success!");
+          $('#submit-form').empty().html(
+            'Success!'
+          );
+          console.log("Set html!");
+
+        }),
+        error: (function (e) {
+          console.log("Failed to submit, " + e);
+          $(this).empty().html(
+            'Failed to submit'
+          );
+        })
+
       });
     }) 
   </script>
