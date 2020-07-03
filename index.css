@@ -7,3 +7,24 @@
   height: auto;
   border-radius: 2%;
 }
+
+.carousel {
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.carousel-caption {
+  padding: 4%;
+}
+.carousel-caption {
+    position: relative;
+    padding-top: 10%;
+    left: auto;
+    right: auto;
+}
+.carousel-control-prev  {
+    transform: scale(2)
+}
+.carousel-control-next {
+    transform: scale(2)
+}
