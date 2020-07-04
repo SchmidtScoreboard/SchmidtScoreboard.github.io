@@ -28,3 +28,16 @@
 .carousel-control-next {
     transform: scale(2)
 }
+
+.accent-class {
+    /* xt-color: #2196f3; */
+}
+
+.colored-bg{
+  background-color: #2196f3;
+}
+
+.btn-primary {
+  background-color: #2196f3;
+
+}
