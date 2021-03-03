@@ -40,64 +40,14 @@
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3">
     <div class="p-lg-5 mx-auto my-5">
       <h1 class="text-center display-6 font-weight-normal">Order Now</h1>
-      <p class="display-10 font-weight-normal mb-5">Schmidt Scoreboard is available now for an introductory
-        price of $200. If you're interested, fill out the form below and I'll work with you on color choices, payment,
-        and delivery.
+      <p class="display-10 font-weight-normal mb-5">Schmidt Scoreboard is available now $250. If you're interested, send me an email at 
+        <a
+        href="mailto:mark.schmidt@hey.com">mark.schmidt@hey.com</a>
       </p>
 
-      <form id="contact-form">
-        <div class="form-group">
-          <label for="nameInput">Name</label>
-          <input class="form-control" type="text" name="Name" id="nameInput" placeholder="Michael Realman" />
-        </div>
-
-        <div class="form-group">
-          <label for="emailInput">Email Address</label>
-          <input class="form-control" type="text" name="Email" id="emailInput" placeholder="michael@humanemail.com" />
-        </div>
-
-        <button class="btn btn-primary" type="button" id="submit-form">
-          Submit
-        </button>
       </form>
     </div>
   </div>
-  <script>
-    var $form = $('form#contact-form'),
-      url = 'https://script.google.com/macros/s/AKfycbwSTi01OEn7wLwTqT6pls0W2a-Qgv8yLQP9gV2zudZHdArbjv9n/exec'
-
-    $('#submit-form').on('click', function (e) {
-      e.preventDefault();
-      // $('#submit-loading').show();
-      $(this).prop("disabled", true);
-      $(this).html(
-        `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Submitting...`
-      );
-      var form_data = $form.serializeObject();
-      form_data["Sent Email"] = false;
-      var jqxhr = $.ajax({
-        url: url,
-        method: "GET",
-        dataType: "json",
-        data: form_data,
-        success: (function (e) {
-          console.log("Success!");
-          $('#submit-form').empty().html(
-            'Success!'
-          );
-
-        }),
-        error: (function (e) {
-          console.log("Failed to submit, " + e);
-          $(this).empty().html(
-            'Failed to submit'
-          );
-        })
-
-      });
-    }) 
-  </script>
-
 
 
 </body>
