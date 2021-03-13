@@ -37,72 +37,19 @@
     });
   </script>
 
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3">
-    <div class="p-lg-5 mx-auto my-5">
-      <h1 class="text-center display-6 font-weight-normal">Send a support request</h1>
-      <h3 class="text-center font-weight-normal mb-5">We'll reply and get your issue solved as soon as
-        possible
-      </h3>
-      <p class="text-center font-weight-normal mb-5">If you need another copy of the Scoreboard Manual, download it
-        here: <a href="ScoreboardManual.pdf">Download File</a>
 
-      </p>
-
-      <form id="contact-form">
-        <div class="form-group">
-          <label for="nameInput">Name</label>
-          <input class="form-control" type="text" name="Name" id="nameInput" placeholder="Michael Realman" />
-        </div>
-
-        <div class="form-group">
-          <label for="emailInput">Email Address</label>
-          <input class="form-control" type="text" name="Email" id="emailInput" placeholder="michael@humanemail.com" />
-        </div>
-        <div class="form-group">
-          <label for="messageInput">Message</label>
-          <textarea class="form-control" type="text" name="Message" id="messageInput"
-            placeholder="What's wrong with your Scoreboard?" rows=5></textarea>
-        </div>
-        <button class="btn btn-primary" type="button" id="submit-form">
-          Submit
-        </button>
-      </form>
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-6 font-weight-normal">Get Help</h1>
     </div>
   </div>
-  <script>
-    var $form = $('form#contact-form'),
-      url = 'https://script.google.com/macros/s/AKfycbwK_ZblbfA-QYUmZh7hH6API-ANGiE2cCWfVWWG1oEGqzMu6g2G/exec';
-
-    $('#submit-form').on('click', function (e) {
-      e.preventDefault();
-      // $('#submit-loading').show();
-      $(this).prop("disabled", true);
-      $(this).html(
-        `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Submitting...`
-      );
-      var form_data = $form.serializeObject();
-      form_data["Status"] = "NEW";
-      var jqxhr = $.ajax({
-        url: url,
-        method: "GET",
-        dataType: "json",
-        data: form_data,
-        success: (function (e) {
-          $('#submit-form').empty().html(
-            'Success!'
-          );
-
-        }),
-        error: (function (e) {
-          console.log("Failed to submit, " + e);
-          $('#submit-form').empty().html(
-            'Error'
-          );
-        })
-
-      });
-    }) 
-  </script>
+  <div class="px-5" id="Paragraphs">
+      <p class="text-center font-weight-normal mb-5">Email me at <a href = "mailto: mark.schmidt@hey.com">mark.schmidt@hey.com</a> I'll reply and get your issue solved as soon as
+        possible
+      </p>
+      <p class="text-center font-weight-normal mb-5">If you need another copy of the Scoreboard Manual, download it
+        here: <a href="ScoreboardManual.pdf">Download File</a>
+  </div>
 
 
 
