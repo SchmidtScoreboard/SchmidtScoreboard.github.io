@@ -1,8 +1,10 @@
+# Scoreboard 2.0
+
 🎉 The biggest scoreboard update yet! 🎉
 
 INSERT FOOTBALL/NEW APP PICTURE
 
-# What's new?
+## What's new?
 
 So many new things! This is the biggest update to Schmidt Scoreboard since the initial release.
 
@@ -14,7 +16,7 @@ So many new things! This is the biggest update to Schmidt Scoreboard since the i
 
 This update took a ton of work to make the features above work, and includes an upgrade to Flutter 2 to support the new app, reworks to both the AWS server and the Scoreboard software to speed up fetching games, and a lot more under-the-hood work to make Scoreboard even better.
 
-# What's Next?
+## What's Next?
 
 In this marathon update, I've included a lot of features that I planned to release over the course of 2021. [Here](https://4jqaknpki6r.typeform.com/to/jQbcwAn9) is a link to a survey where I can gauge interest on what features are most interesting; I'd really appreciate it if you filled it out!
 
