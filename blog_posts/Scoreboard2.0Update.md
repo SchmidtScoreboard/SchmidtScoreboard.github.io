@@ -2,7 +2,7 @@
 
 🎉 The biggest scoreboard update yet! 🎉
 
-INSERT FOOTBALL/NEW APP PICTURE
+![Scoreboard 2.0](assets/IMG_0145.jpeg)
 
 ## What's new?
 
@@ -10,7 +10,7 @@ So many new things! This is the biggest update to Schmidt Scoreboard since the i
 
 1. **Football and College Football** are now available (though games won't start for a while)
 2. **Automatic Mode** shows games from all different sports. When the Cubs and the Blackhawks are playing at the same time, you can keep track of both games!
-3. **Magic Power** will turn your scoreboard on and off automatically. Set it to Auto Mode with Magic Power, and you will never miss a game from any of your favorite teams across all leagues.
+3. **Magic Power** will turn your scoreboard on and off automatically whenever your favorite teams play. Set it to Auto Mode with Magic Power, and you will never miss a game from any of your favorite teams across all leagues.
 4. **App Adaptability** includes many changes to make the app more responsive across various devices. Try it on your iPad or Android tablet, or try turning your phone into landscape mode!
 5. **Font Touch-Ups** ensure that Y's, T's, N's and other letters have proper spacing in team names, for a much cleaner look.
 
