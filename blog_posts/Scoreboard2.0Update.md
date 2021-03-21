@@ -26,4 +26,4 @@ Mark Schmidt
 
 [mark.schmidt@hey.com](mark.schmidt@hey.com)
 
-P.S. I am always on the lookout for new customers—please reach out or share my email with any po
+P.S. I am always on the lookout for new customers—please reach out or share my email with anyone who might be interested!
