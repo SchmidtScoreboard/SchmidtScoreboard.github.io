@@ -22,7 +22,7 @@ Below is a table showing all the parts you will need to build a Schmidt Scoreboa
 | WiFi Dongle | https://www.amazon.com/gp/product/B008IFXQFU/ref=ppx_yo_dt_b_search_asin_title? | $9.99 | RPi’s built in WiFi radio is subpar and barely penetrates the case.
 | 3D Printed Housing | Links to the files can be found [here]() | It costs me $15 at $0.10 per gram to get both parts printed at my local library—if you don’t have access to a 3D printer (or a big enough 3D printer), try your local library! I’ve had the best luck with black PLA+ filament
 | Gorilla Glue | Hardware store or target | <$5 | Used to secure nuts into 3D print.
-| M3 Screws and Nuts | Your local hardware store | <$5 | All screws for this are M3. Look for 4mm, 6mm, and 8mm screws.
+| M3 Screws and Nuts | Your local hardware store | <$5 | All screws for this are M3. You'll need 8 10mm screws and 4 8mm screws.
 | Jumper cables | Electronics store, Amazon, anywhere. | <$5 | You don’t need super long jumper cables.
 
 The total price of parts to build a Scoreboard is about $135, not including shipping from various sources. If you have your own 3D printer, you can save some money. The most variable priced item is the Matrix—it can be difficult to find in the right size, but have patience!
