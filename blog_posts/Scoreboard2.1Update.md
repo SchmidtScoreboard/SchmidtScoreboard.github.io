@@ -6,7 +6,7 @@ Fore! Golf makes its way to the Schmidt Scoreboard. Get your game on, go play th
 
 ![](assets/IMG_0722.jpeg)
 
-Golf mode is the first individual sport I’ve added to the Schmidt Scoreboard. It displays the name of the event and the top 4 player, and will fetch updates as the game progresses.
+Golf mode is the first individual sport I’ve added to the Schmidt Scoreboard. It displays the name of the event and the top 4 players, and will fetch updates as the game progresses.
 
 Because golf doesn’t have teams, it is not possible to set favorite teams. To get golf events to lock focus and automatically turn on power with Magic Power, toggle the new “Prioritize Golf” button in the settings, seen below.
 ![](assets/IMG_0731.jpeg)
@@ -32,7 +32,7 @@ Your Scoreboard will now automatically restart each morning at 3AM local time. T
 
 ## What’s Next?
 
-I’ve got a few potential features that I’d love feedback on. You can find the survery[here](https://4jqaknpki6r.typeform.com/to/jQbcwAn9) if you haven’t filled it out. 
+I’ve got a few potential features that I’d love feedback on. You can find the survery [here](https://4jqaknpki6r.typeform.com/to/jQbcwAn9) if you haven’t filled it out. 
 
 Currently, my plan is:
 
