@@ -6,7 +6,9 @@ Another smorgasbord of updates for your Schmidt Scoreboard!
 
 ![](assets/IMG_0825.jpeg)
 
-This update brings a much-requested improvement to Baseball games: an on base indicator! Now, you can be even more up to date than ever before! I’m excited to bring features like this to other sports, such as down and yardage indicators for football.
+This update brings a much-requested improvement to Baseball games: an on base indicator! Now, you can be even more up to date than ever before! This requires adding your baseball teams as favorites again because it uses a different data source. Sorry for the inconvenience. 
+
+I’m excited to bring features like this to other sports, such as down and yardage indicators for football.
 
 ## Magic Power Clock
 
