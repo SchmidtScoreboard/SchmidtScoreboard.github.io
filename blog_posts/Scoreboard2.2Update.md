@@ -14,7 +14,7 @@ I’m excited to bring features like this to other sports, such as down and yard
 
 ![](assets/IMG_0826.jpeg)
 
-This is a specific request of one of my earliest customers. With this new setting and Magic Power enabled, your scoreboard will show the clock when there are no priority games active.
+With this new setting and Magic Power enabled, your scoreboard will show the clock when there are no priority games active. Makes sure your Scoreboard is useful even when there's no sports to worry about. Enjoy your personalized feature, Brian!
 
 ## Improved Loading/Troubleshooting in App
 
