@@ -33,7 +33,7 @@ Note that it may take some time after the season starts for these stats to appea
 
 ## What’s Next
 
-This is the last of my planned updates for the Schmidt Scoreboard. I’ve loved developing this little project into a product that people can buy, but I’m beginning to get burnt out as I continue to work on it. It’s time to move on to other exciting projects.
+This is the last of my planned updates for the Schmidt Scoreboard. I’ve loved developing this little project into a product that people can buy, but it’s time to move on to other exciting projects.
 
 I’m happy with the state of the features—with Golf, Basketball, Football, Custom Messages, and all the other updates added in the last year, Schmidt Scoreboard is an awesome, fully featured product. I’ll continue to sell Schmidt Scoreboards as they are ordered for the foreseeable future and will provide product support and bug fixes for as long as I can, but don’t expect additional features or modes in the coming months.
 
