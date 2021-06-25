@@ -42,6 +42,8 @@ Thank you so very much to all of my customers. I dearly appreciate how each of y
 Please feel free to reach out with any suggestions—just because I’m not planning additional features doesn’t mean I can’t be drawn back in by a solid idea. And of course, if you are having issues, don’t hesitate to shoot me an email so we can get it resolved as soon as possible.
 
 
-Thanks again
+Thanks again,
+
 Mark Schmidt
+
 mark.schmidt@hey.com
