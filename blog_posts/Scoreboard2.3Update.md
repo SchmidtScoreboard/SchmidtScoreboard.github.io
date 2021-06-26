@@ -22,6 +22,11 @@ In addition, you can choose to show your Custom Message as your default screen s
 ![](assets/blog_post_3/IMG_1141.jpeg)
 
 
+Note that if you currently have your scoreboard set to show the clock when it would Magic Power off, you'll have to reset the setting at the menu above.
+
+Also, there is a minor bug that is fixed but may be present on whichever version of the update your Scoreboard happened to receive. The default message when you activate Custom Message mode will have cut-off text on a green background. That's not intentional, and is fixed in 2.3.1, which is already out. 
+
+
 ## Better Football
 
 With football season starting soon, I’ve laid the ground work for extra stats in the college and professional football screens.
